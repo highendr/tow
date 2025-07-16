@@ -5,7 +5,7 @@ st.title("📚 프로젝트 메인 페이지")
 
 # 제목과 링크 리스트
 projects = [
-    {"제목": "2025년 5월 인구 통계 분석", "링크": "./population.py"},
+    {"제목": "2025년 5월 인구 통계 분석", "링크": "population.py"},
     {"제목": "행정구역별 지도 시각화", "링크": "https://example.com/project2"},
     {"제목": "데이터 기반 직업 추천 앱", "링크": "https://example.com/project3"},
     {"제목": "AI 학습 성과 대시보드", "링크": "https://example.com/project4"},
