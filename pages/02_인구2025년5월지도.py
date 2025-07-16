@@ -50,4 +50,4 @@ for _, row in top5_df.iterrows():
 
 # Streamlit에 지도 출력
 st.title("상위 5개 행정구역 인구수 지도 시각화 (원형 표시)")
-
+st_data = st_folium(m, width=700, height=500)
