@@ -52,10 +52,10 @@ for _, row in top5_df.iterrows():
     if coords:
         folium.Circle(
             location=coords,
-            radius=int(pop) / 200,   # 원 크기 조정 (필요 시 /15 ~ /30 사이에서 조절)
-            color='darkblue',
+            radius=int(pop) / 300,   # 원 크기 조정 (필요 시 /15 ~ /30 사이에서 조절)
+            color='darkpink',
             fill=True,
-            fill_color='blue',
+            fill_color='indipink',
             fill_opacity=0.6,       # 불투명하게 표시
             popup=f"{region} : {pop:,}명",
             tooltip=region
