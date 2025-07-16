@@ -43,7 +43,7 @@ for _, row in top5_df.iterrows():
             color='blue',
             fill=True,
             fill_color='blue',
-            fill_opacity=0.3,   # 0.0(완전투명) ~ 1.0(완전불투명)
+            fill_opacity=1.0,   # 0.0(완전투명) ~ 1.0(완전불투명)
             popup=f"{region} : {pop:,}명",
             tooltip=region
         ).add_to(m)
