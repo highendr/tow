@@ -39,7 +39,7 @@ for _, row in top5_df.iterrows():
     if coords:
         folium.Circle(
             location=coords,
-            radius=int(pop) / 50,   # 🔍 원 크기를 키움 (기존 /50 → /20)
+            radius=int(pop) / 200,   # 🔍 원 크기를 키움 (기존 /50 → /20)
             color='darkblue',       # 진한 외곽선 색상
             fill=True,
             fill_color='blue',      # 내부 색상
